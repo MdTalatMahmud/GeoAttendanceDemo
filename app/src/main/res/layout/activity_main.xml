@@ -22,7 +22,7 @@
         android:id="@+id/btn1ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Managing Director">
+        android:text="Employer">
 
     </Button>
 
@@ -30,7 +30,7 @@
         android:id="@+id/btn2ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Supervisor/Admin">
+        android:text="GEO Attendance Admin">
 
     </Button>
 
