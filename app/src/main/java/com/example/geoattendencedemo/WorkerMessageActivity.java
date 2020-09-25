@@ -21,7 +21,7 @@ public class WorkerMessageActivity extends AppCompatActivity {
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent confirmJobActivityIntent = new Intent(WorkerMessageActivity.this, ConfirmJobActivity.class);
+                Intent confirmJobActivityIntent = new Intent(WorkerMessageActivity.this, GoogleMapActivity.class);
                 startActivity(confirmJobActivityIntent);
             }
         });

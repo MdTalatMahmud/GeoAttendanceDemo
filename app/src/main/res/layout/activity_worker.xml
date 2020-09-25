@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="It's working time. Get ready please."
+        android:text="It's working time. Get ready please.\n your shift will start at 9:00 AM"
         android:layout_marginBottom="20px">
 
     </TextView>
