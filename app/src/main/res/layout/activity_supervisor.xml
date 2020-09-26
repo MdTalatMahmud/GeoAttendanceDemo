@@ -5,57 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".SupervisorActivity">
 
 
-    <TextView
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/TodaysWorkerBtnID"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mr. A confirmed the job">
+        android:text="Today's Workers">
 
-    </TextView>
+    </Button>
 
-    <TextView
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/SeeAllEmployeesBtnID"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mr. B confirmed the job">
+        android:text="See All Employees">
 
-    </TextView>
-
-    <TextView
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mr. C confirmed the job">
-
-    </TextView>
-
-    <TextView
-        android:textColor="#DA0323"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mr. D rejected the job">
-
-    </TextView>
-
-    <TextView
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mr. E confirmed the job">
-
-    </TextView>
-
-    <TextView
-        android:textColor="#DA0323"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mr. F rejected the job">
-
-    </TextView>
+    </Button>
 
 </LinearLayout>
