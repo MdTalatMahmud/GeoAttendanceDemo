@@ -2,15 +2,18 @@ package com.example.geoattendencedemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 public class SeeAllEmployeesActivity extends AppCompatActivity {
 
     ListView listView;
-    //ArrayAdapter<String> adapter;
     private SearchView employeeSearchView;
 
     @Override
@@ -21,7 +24,7 @@ public class SeeAllEmployeesActivity extends AppCompatActivity {
         listView = findViewById(R.id.EmployeeListViewID);
         employeeSearchView = findViewById(R.id.employeeSearchViewID);
 
-        String[] employeeNames = getResources().getStringArray(R.array.employee_names);
+        final String[] employeeNames = getResources().getStringArray(R.array.employee_names);
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(SeeAllEmployeesActivity.this, R.layout.all_employee_view, R.id.textViewID, employeeNames);
         listView.setAdapter(adapter);
@@ -36,6 +39,16 @@ public class SeeAllEmployeesActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String newText) {
                 adapter.getFilter().filter(newText);
                 return false;
+            }
+        });
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String value = employeeNames[position];
+                Intent intent = new Intent(SeeAllEmployeesActivity.this, EmployeeHourRecordActivity.class);
+                intent.putExtra("value", value);
+                startActivity(intent);
             }
         });
     }
