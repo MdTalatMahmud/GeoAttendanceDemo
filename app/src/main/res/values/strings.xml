@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">GeoAttendenceDemo</string>
+    <string name="app_name">GEO Attendence Demo</string>
+
+    <string-array name="employee_names">
+        <item>Mr. Arman</item>
+        <item>Mr. Harun</item>
+        <item>Mr. Talat</item>
+        <item>Mr. Abdullah</item>
+        <item>Mr. Mahmud</item>
+        <item>Mr. A</item>
+        <item>Mr. B</item>
+        <item>Mr. C</item>
+        <item>Mr. D</item>
+        <item>Mr. E</item>
+        <item>Mr. F</item>
+        <item>Mr. G</item>
+        <item>Mr. H</item>
+        <item>Mr. I</item>
+        <item>Mr. J</item>
+        <item>Mr. K</item>
+        <item>Mr. L</item>
+        <item>Mr. M</item>
+        <item>Mr. N</item>
+        <item>Mr. O</item>
+        <item>Mr. P</item>
+        <item>Mr. Q</item>
+        <item>Mr. R</item>
+    </string-array>
 </resources>
