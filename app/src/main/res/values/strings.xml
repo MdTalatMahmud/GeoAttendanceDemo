@@ -26,4 +26,12 @@
         <item>Mr. Q</item>
         <item>Mr. R</item>
     </string-array>
+
+    <string-array name="todays_employee_names">
+        <item>Mr. Arman</item>
+        <item>Mr. Harun</item>
+        <item>Mr. Talat</item>
+        <item>Mr. Abdullah</item>
+        <item>Mr. Mahmud</item>
+    </string-array>
 </resources>
