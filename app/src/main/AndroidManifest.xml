@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TodaysWorkersTimeActivity"></activity>
+        <activity android:name=".OnDayActivity"></activity>
+        <activity android:name=".SeeFullMonthActivity" />
+        <activity android:name=".MakeNewDayRosterActivity" />
+        <activity android:name=".TodaysWorkersTimeActivity" />
         <activity android:name=".EmployeeHourRecordActivity" />
         <activity android:name=".SeeAllEmployeesActivity" />
         <activity android:name=".TodaysWorkerActivity" />

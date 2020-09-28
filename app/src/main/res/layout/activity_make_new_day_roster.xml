@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakeNewDayRosterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow date: 29/09/20"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/emplyeeIDEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"/>
+
+    <EditText
+        android:id="@+id/employeeNameEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee name"/>
+
+    <EditText
+        android:id="@+id/startTimeEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"/>
+
+    <EditText
+        android:id="@+id/breakTimeEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Break Time"/>
+
+    <EditText
+        android:id="@+id/finishTimeEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Finish Time"/>
+
+    <Button
+        android:id="@+id/rosterAssignedButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:onClick="showMessage"/>
+
+
+
+
+</LinearLayout>

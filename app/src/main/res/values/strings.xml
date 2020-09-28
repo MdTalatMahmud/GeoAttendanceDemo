@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GEO Attendence Demo</string>
+    <string name="app_name">Company Name Here!</string>
 
     <string-array name="employee_names">
         <item>Mr. Arman</item>
